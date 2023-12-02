@@ -1,5 +1,6 @@
 const std = @import("std");
 const expect = @import("std").testing.expect;
+const isDigit = @import("std").ascii.isDigit;
 const IntArrayList = std.ArrayList(u8);
 
 pub fn main() !void {
@@ -59,13 +60,6 @@ fn part2(input: []const u8) !i64 {
         sum += number;
     }
     return sum;
-}
-
-fn isDigit(char: u8) bool {
-    return switch (char) {
-        '0'...'9' => true,
-        else => false,
-    };
 }
 
 test "part 1" {
