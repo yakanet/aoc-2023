@@ -1,0 +1,11 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "```shell\r zig build --help\r ```",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
